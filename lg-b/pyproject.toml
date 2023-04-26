@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lg-b"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Vorontsov <reygofor@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lg_b"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
