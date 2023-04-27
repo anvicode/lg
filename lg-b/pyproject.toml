@@ -14,6 +14,13 @@ pillow = "^9.5.0"
 
 [tool.poetry.group.dev.dependencies]
 python-dotenv = "^1.0.0"
+djlint = "^1.25.0"
+
+[tool.djlint]
+format_attribute_template_tags=true
+blank_line_after_tag = "load,extends,include"
+blank_line_before_tag = "load,extends,include"
+
 
 [build-system]
 requires = ["poetry-core"]
